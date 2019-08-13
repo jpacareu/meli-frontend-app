@@ -15,6 +15,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 Launches the test runner in the interactive watch mode.<br>
 
+You can find the test coverage [here](https://meli-coverage-app.herokuapp.com/report-front/index.html)
+
 ### `npm run build`
 
 Builds the app for production to the `build` folder.<br>

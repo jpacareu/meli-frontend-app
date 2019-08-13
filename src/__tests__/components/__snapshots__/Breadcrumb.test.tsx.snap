@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Breadcrumb /> should render without crashing 1`] = `
+<nav
+  aria-label="breadcrumb"
+>
+  <ol
+    className="breadcrumb-category d-md-flex"
+  >
+    <li
+      aria-current="page"
+      className="breadcrumb-category__item"
+    >
+      Categoria 1
+    </li>
+    <li
+      aria-current="page"
+      className="breadcrumb-category__item"
+    >
+      Categoria 2
+    </li>
+    <li
+      aria-current="page"
+      className="breadcrumb-category__item__highlight"
+    >
+      Categoria 3
+    </li>
+  </ol>
+</nav>
+`;

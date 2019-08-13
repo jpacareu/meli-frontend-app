@@ -1,0 +1,31 @@
+.result-search {
+    background-color: $white;
+    border-radius: 5px;
+}
+
+.item {
+    border-bottom: 1px solid $white-gray; 
+    display: flex;
+    cursor: default;
+    p {
+        margin-bottom: 0;
+    }
+    &__image {
+        cursor: pointer;
+        margin: $padding-sm;
+        height: 180px;
+        width: 180px;
+        border-radius: 4px;
+    }
+    &__price {
+        font-size: $font-size-24;
+        padding: $padding-sm 0 $padding-lg 0;
+    }
+    &__title {
+        font-size: $font-size-18;
+    }
+    &__free_shipping {
+        height: 20px;
+        margin-left: 10px;
+    }
+}

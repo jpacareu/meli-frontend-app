@@ -1,0 +1,48 @@
+.item-detail {
+    background-color: $white;
+    &__image {
+        max-height: 680px;
+        width: 100%;
+        height: 100%;
+        border-radius: 4px;
+    }
+    &__main-info {
+        padding: $padding-xs;
+    }
+    &__condition-and-sold {
+        margin-top: $padding-lg;
+        margin-bottom: $padding-sm;
+        font-size: $font-size-14; 
+        & > * {
+            margin-right: 10px;
+        }
+    }
+    &__title {
+        font-size: $font-size-24;
+        font-weight: 600;
+        margin-bottom: $padding-lg;
+    }
+    &__price {
+        font-size: $font-size-46;
+        font-weight: 300;
+        margin-bottom: $padding-lg;
+    }
+    &__button {
+        background-color: $primary;
+        color: $white;
+        border-radius: 5px;
+        width: 80%;
+        height: 40px;
+    }
+    &__descripcion-label {
+        color: $dark-gray;
+        font-size: $font-size-28;
+        font-weight: 500;
+        margin-left: $padding-sm;
+    }
+    &__descripcion-text {
+        color: $light-gray;
+        font-size: $font-size-14;
+        margin: $padding-sm 0 $padding-sm $padding-sm;
+    }
+}

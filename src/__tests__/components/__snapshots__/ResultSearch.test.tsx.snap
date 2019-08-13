@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResultSearch /> should render without crashing 1`] = `
+Array [
+  <nav
+    aria-label="breadcrumb"
+  >
+    <ol
+      className="breadcrumb-category d-md-flex"
+    >
+      <li
+        aria-current="page"
+        className="breadcrumb-category__item"
+      >
+        Category 1
+      </li>
+      <li
+        aria-current="page"
+        className="breadcrumb-category__item"
+      >
+        Category 2
+      </li>
+      <li
+        aria-current="page"
+        className="breadcrumb-category__item__highlight"
+      >
+        Category 3
+      </li>
+    </ol>
+  </nav>,
+  <div
+    className="result-search"
+  />,
+]
+`;

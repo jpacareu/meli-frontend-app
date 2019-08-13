@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Search /> should render without crashing 1`] = `
+Array [
+  <div
+    className="offset-md-1 col-md-1 col-2"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt="Logo Marcado Libre"
+        className="search-bar__image"
+        src="Logo_ML.png"
+      />
+    </a>
+  </div>,
+  <div
+    className="col-md-9 col-10"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <div
+        className="search-bar__container"
+      >
+        <input
+          className="search-bar__input"
+          onChange={[Function]}
+          placeholder="Nunca dejes de buscar"
+        />
+        <button
+          className="search-bar__button"
+          onClick={[Function]}
+          type="submit"
+        >
+          <img
+            alt="Search"
+            src="ic_Search.png"
+          />
+        </button>
+      </div>
+    </form>
+  </div>,
+]
+`;

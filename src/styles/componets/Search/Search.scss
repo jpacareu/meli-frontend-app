@@ -1,0 +1,29 @@
+
+header.header {
+    background-color: $main;
+}
+
+.search-bar {
+    &__container {
+        height: 60px;
+        display: flex;
+        padding: $padding-xs; 
+        align-content: center;
+    }
+    &__input {
+        flex-basis: 100%;
+        padding: $padding-xs; 
+        border-radius: 5px 0 0 5px;
+        outline: none;
+        font-size: $font-size-18;
+    }
+    &__button {
+        border-radius: 0 5px 5px 0px;
+        text-align: center;
+    }
+    &__image {
+        position: absolute;
+        top: 12px;
+        margin-left: 5px;
+    }
+}

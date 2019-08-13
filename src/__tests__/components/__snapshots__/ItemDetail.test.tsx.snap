@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ItemDetail /> should render without crashing 1`] = `
+<div
+  className="item-detail row"
+>
+  <div
+    className="col-md-7"
+  >
+    <img
+      alt="Title 1"
+      className="item-detail__image"
+      src="http://mypicture.com/image.jpg"
+    />
+  </div>
+  <div
+    className="col-md-4 col-sm-12"
+  >
+    <section
+      className="item-detail__main-info"
+    >
+      <div
+        className="item-detail__condition-and-sold d-flex"
+      >
+        <div
+          className="item-detail__condition"
+        >
+          Nuevo
+        </div>
+        <span>
+           - 
+        </span>
+        <div
+          className="item-detail__sold"
+        >
+          1000
+        </div>
+      </div>
+      <div
+        className="item-detail__title"
+      >
+        Title 1
+      </div>
+      <div
+        className="item-detail__price"
+      >
+        $ 2.500
+      </div>
+      <button
+        className="item-detail__button"
+      >
+        Comprar
+      </button>
+    </section>
+  </div>
+  <div
+    className="col-md-7 col-sm-12"
+  >
+    <section>
+      <summary
+        className="item-detail__descripcion-label"
+      >
+        Descripción del producto
+      </summary>
+      <div
+        className="item-detail__descripcion-text"
+      >
+        This is the desciption
+      </div>
+    </section>
+  </div>
+</div>
+`;

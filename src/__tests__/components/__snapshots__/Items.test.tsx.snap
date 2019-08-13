@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Items /> should render without crashing 1`] = `
+<div
+  className="result-search"
+>
+  <div
+    className="col-md-12"
+  >
+    <div
+      className="item"
+    >
+      <img
+        alt="Title 1"
+        className="item__image"
+        onClick={[Function]}
+        src="http://mywebsite.com/image1.jpg"
+      />
+      <div>
+        <div
+          className="d-flex flex-row"
+        >
+          <div
+            className="item__price d-flex align-items-center"
+          >
+            <div>
+              U$S 1.234
+            </div>
+            <img
+              alt="Free shipping"
+              className="item__free_shipping"
+              src="ic_shipping.png"
+            />
+          </div>
+        </div>
+        <p
+          className="item__title"
+        >
+          Title 1
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    className="col-md-12"
+  >
+    <div
+      className="item"
+    >
+      <img
+        alt="Title 2"
+        className="item__image"
+        onClick={[Function]}
+        src="http://mywebsite.com/image2.jpg"
+      />
+      <div>
+        <div
+          className="d-flex flex-row"
+        >
+          <div
+            className="item__price d-flex align-items-center"
+          >
+            <div>
+              $ 5.678
+            </div>
+          </div>
+        </div>
+        <p
+          className="item__title"
+        >
+          Title 2
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    className="col-md-12"
+  >
+    <div
+      className="item"
+    >
+      <img
+        alt="Title 3"
+        className="item__image"
+        onClick={[Function]}
+        src="http://mywebsite.com/image3.jpg"
+      />
+      <div>
+        <div
+          className="d-flex flex-row"
+        >
+          <div
+            className="item__price d-flex align-items-center"
+          >
+            <div>
+              $ 9.999
+            </div>
+          </div>
+        </div>
+        <p
+          className="item__title"
+        >
+          Title 3
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

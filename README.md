@@ -2,6 +2,10 @@
 
 [Buscador Mercado Libre](https://meli-backend-app.herokuapp.com/)
 
+## Test coverage
+
+You can find the test coverage [here](https://meli-coverage-app.herokuapp.com/report-front/index.html)
+
 ## Available Scripts
 
 In the project directory, you can run:
